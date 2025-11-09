@@ -37,7 +37,7 @@ public class Paiement {
     @Column(name = "lastUpdateDate")
     private LocalDateTime lastUpdateDate;
 
-    @Column(name = 'isDelete')
+    @Column(name = "isDelete")
     private int isDelete;
 
 }
